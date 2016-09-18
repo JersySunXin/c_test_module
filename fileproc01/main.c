@@ -11,6 +11,7 @@ int main()
 {
     FILE *fp;
     printf("proc is start!\n");
+	printf("im in home!\n");
 
     //open and make
     if((fp=fopen("test","w"))==NULL)
