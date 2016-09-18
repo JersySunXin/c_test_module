@@ -11,7 +11,11 @@ int main()
 {
     FILE *fp;
     printf("proc is start!\n");
+<<<<<<< HEAD
     printf("im in workspcae!\n");
+=======
+	printf("im in home!\n");
+>>>>>>> workhome
 
     //open and make
     if((fp=fopen("test","w"))==NULL)
