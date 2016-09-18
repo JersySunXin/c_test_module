@@ -5,12 +5,13 @@
 */
 #include "stdio.h"
 #include "stdlib.h"
-//#include <>
+#include "work.h"
 
 int main()
 {
     FILE *fp;
     printf("proc is start!\n");
+    printf("im in workspcae!\n");
 
     //open and make
     if((fp=fopen("test","w"))==NULL)
@@ -31,6 +32,7 @@ int main()
     {
         printf("File is closed!\n");
     }
+    printf("worknum=%d\n",worknum);
     getchar();
     return 0;
 }
