@@ -1,5 +1,6 @@
 /*
     file proc test
+    20160918 c 对于文件操作的例程
 
 */
 #include "stdio.h"
